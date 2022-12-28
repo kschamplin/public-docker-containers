@@ -15,7 +15,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - dockerfile: caddy.Dockerfile
+          - dockerfile: ./docker/caddy.Dockerfile
             image: ghcr.io/${{ github.actor }}/caddy
     permissions:
       contents: read
