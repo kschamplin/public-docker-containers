@@ -34,4 +34,4 @@ jobs:
         with:
           context: caddy/
           push: true
-          tags: ghcr.io/kschamplin/app:latest
+          tags: ghcr.io/kschamplin/caddy:latest
